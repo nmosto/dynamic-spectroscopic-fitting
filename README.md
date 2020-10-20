@@ -1,4 +1,4 @@
-# dynamic-spectroscopic-fitting
+# pyUSID-process-fitting
 A tutorial on how to create a custom fitting class using pyUSID.Process to model spectroscopic data
 
 ### Note on Pycroscopy and pyUSID
