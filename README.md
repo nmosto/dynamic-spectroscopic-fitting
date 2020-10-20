@@ -1,7 +1,11 @@
 # dynamic-spectroscopic-fitting
 A tutorial on how to creating a custom fitting method using pyUSID to model spectroscopic data
 
-# Mapping a Stretched Exponential Relaxation Model to 5-Dim Spectroscopic Piezoforce Microscopy (PFM) Data
+### Note on Pycroscopy and pyUSID
+
+Pycroscopy / pyUSID is a python module developed by scientists at Oakridge National Lab (ORNL) and the Big-Data Spectroscopy community. pyUSID has been developed for scpectrocipic scientific analysis specifically working with large HDF5 files and is an excellent opensource tool for performing data analysis and modelling on large complex spectroscopic datasets. During myt PhD research, I went to ORNL and interacted with the developpers of pyUSID and got inspired to use it in my research and built a custom fitting function for studying relaxation phenomena that leverages the excellent class called pyUSID.Process. pyUSID.Process is one of the most powerful features in the package and in an effort to share help others scientists in the spectroscopic community, I created this tutorial to show other potential users how to implement the pyUSID.Process class and build your own custom model using it. 
+
+### Mapping a Stretched Exponential Relaxation Model to 5-Dim Spectroscopic Piezoforce Microscopy (PFM) Data
 
 Author: Nick Mostovych (from my PhD work)
 
