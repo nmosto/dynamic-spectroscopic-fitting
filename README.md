@@ -1,5 +1,5 @@
 # pyUSID-process-fitting
-A tutorial on how to create a custom fitting class using pyUSID.Process to model spectroscopic data
+A tutorial on how to create a custom fitting class using pyUSID.Process to model spectroscopic data.
 
 ### Note on Pycroscopy and pyUSID
 
@@ -34,6 +34,6 @@ Datasets are flattened to be 2D for simplicity of analysis purposes: dataset (sp
 
 1. Organize the data to seperate the "off state" raw data from the "on state" I want to work with the "off state"  
 2. Find the resonance data for each position, DC bias and time; fitting it to a simple harmonic oscillator (SHO) model and create a new SHO dataset only with the resonance data
-3. Map a relaxation model to the SHO dataset and create a relaxation dataset composed of a custom datatype, which is composed of all of the model parameters
+3. Map a relaxation model to the SHO dataset and create a relaxation dataset composed of a custom datatype, which is composed of all of the model parameters using pyUSID.Process
 4. Check that the model makes sense and see what fast and slow regions look like using the Beta parameter of a stretched exponential for comparison
 5. Anylyze the results and draw conclusions about spatial variation of relaxation behavior as a function of BMT doping 
